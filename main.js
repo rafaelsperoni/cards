@@ -18,12 +18,24 @@ window.addEventListener('load', (event) => { //executa após carregar a pagina
                 conteudo += "<div><b>Data de Nascimento: </b>"+aluno.nascimento+"</div>"
                 conteudo += "<div><b>Validade: </b>"+aluno.validade+"</div>"
                 conteudo += "<div><b>Endereço: </b>"+aluno.endereço+"</div>"
+                conteudo += "<div class='qrcode'></div>"
                 conteudo += "</div>"
                 conteudo += "<div class='foto'><img src='./fotos/"+aluno.foto+"'></div>"
+
+                let link = "http://escola.../aluno/"+aluno.id
 
                 card.innerHTML = conteudo
 
                 principal.appendChild(card)
+
+                let qr = card.getElementsByClassName('qrcode')
+                new QRCode(qr[0], {
+                    text: link,
+                    width: 80,
+                    height: 80
+                })
+
+
             })
         })
 
