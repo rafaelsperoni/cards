@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Homer Simpson",
+        "curso": "informatica",
+        "escola": "IFC",
+        "nascimento": "01/04/2000",
+        "validade": "31/12/2024",
+        "endereco": "Rua X, Bairro Y",
+        "foto": "homer.png"
+    },
+    {
+        "id": 2,
+        "nome": "Margie Simpson",
+        "curso": "informatica",
+        "escola": "IFC",
+        "nascimento": "01/04/2000",
+        "validade": "31/12/2024",
+        "endereco": "Rua X, Bairro Y",
+        "foto": "margie.png"
+    }
+
+]

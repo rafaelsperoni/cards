@@ -1,0 +1,23 @@
+.card{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 380px;
+    display: flex;
+    height: 200px;
+    background-image: url(./fotos/fundo.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dados{
+    width: 80%;
+}
+
+.foto{
+    margin: 20px;
+}
+.foto img{
+    width: 80px
+}
